@@ -31,7 +31,7 @@ header {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr auto 1fr;
-    border-bottom: 1px solid black;
+    box-shadow: 1px 0.5px 3px rgba(0, 0, 0, 0.12);
     padding: 15px 0;
 }
 .title-home {
@@ -58,10 +58,10 @@ menu li a {
     transition: 0.3s background-image ease-in;
 }
 
-menu li a:hover {
+menu li:hover a {
     border-radius: 5px;
     color: white;
-    background-image: linear-gradient(90deg, rgba(247,21,120,1) 0%, rgba(96,167,251,1) 100%);
+    background-image: linear-gradient(102deg, rgb(0, 153, 255) 0%, rgb(204, 0, 255) 100%);
 }
 
 .toggle-mode {
@@ -83,10 +83,13 @@ main {
 
 .main-content h3, p {
     font-size: 1rem;
+    color: #222222;
 }
 
 .main-content h1 {
-    font-size: 4rem;
+    font-size: 80px;
+    font-weight: 600;
+    color: #222222;
 }
 
 .main-content p {
@@ -98,13 +101,13 @@ main {
 }
 .btn-container button {
     cursor: pointer;
-    padding: 10px 50px;
+    padding: 15px 20px;
     border: none;
-    font-size: 1rem;
-    border-radius: 10px;
-    font-weight: bold;
-    background: rgb(247,21,120);
-    background: linear-gradient(90deg, rgba(247,21,120,1) 0%, rgba(96,167,251,1) 100%);
+    font-size: 1.4rem;
+    border-radius: 12px;
+    font-weight: 600;
+    background: linear-gradient(102deg, rgb(0, 153, 255) 0%, rgb(204, 0, 255) 100%);
+    box-shadow: rgba(135, 93, 255, 0.584) 0.398096px 0.398096px 0.562993px -0.9375px, rgba(135, 93, 255, 0.553) 1.20725px 1.20725px 1.70731px -1.875px, rgba(135, 93, 255, 0.47) 3.19133px 3.19133px 4.51322px -2.8125px, rgba(135, 93, 255, 0.2) 10px 10px 14.1421px -3.75px;
     color: white;
 }
 /* --------  PROJETS  ---------- */
@@ -189,11 +192,11 @@ section.projets {
   .name{
     font-size: 18px;
     font-weight: 500;
-    color: #333;
+    color: var(--color-text-light);
   }
   .description{
     font-size: 14px;
-    color: #707070;
+    color: var(--color-text-light);
     text-align: center;
   }
   .button{
@@ -208,7 +211,7 @@ section.projets {
     transition: all 0.3s ease;
   }
   .button:hover{
-    background: #265DF2;
+    background: #0a36af;
   }
   .swiper-navBtn{
     color: #6E93f7;
@@ -258,7 +261,7 @@ section#contact {
 
 
 
-/*  ANIMATION CSS */
+/* ---------- ANIMATION CSS ----------*/
 @keyframes cube {
     from {
         transform: scale(0) rotate(0deg) translate(-50%, -50%);
@@ -465,6 +468,7 @@ section#contact {
     animation-delay: 7s;
 }
 
+/* ---------- SCROLLBAR ---------- */
 /* Firefox */
 * {
     scrollbar-width: thin;
@@ -501,4 +505,5 @@ section#contact {
   *::-webkit-scrollbar-thumb:active {
     background-color: #535353;
   }
+  
   
