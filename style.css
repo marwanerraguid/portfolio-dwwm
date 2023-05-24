@@ -338,27 +338,13 @@ section#competences {
   color: #333;
 }
 
-/* --------  CONTACT  ---------- */
-section#contact {
-    height: 100vh;
-    font-family: 'GT-Bold';
-}
-
-.title-contact {
-  text-align: center;
-  padding-top: 150px;
-}
-
-.title-contact h2 {
-  font-size: 3rem;
-  padding: 25px;
-}
-
-
 /* --------  FOOTER  ---------- */
 
-
-
+footer {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
 
 
 /* ---------- ANIMATION CSS ----------*/
