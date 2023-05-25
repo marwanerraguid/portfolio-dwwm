@@ -28,8 +28,10 @@ section#competences {
   height: 500px;
   width: 350px;
   cursor: pointer;
-  border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.1);
+  background: rgba( 255, 255, 255, 0.25 );
+  backdrop-filter: blur( 0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 }
 
