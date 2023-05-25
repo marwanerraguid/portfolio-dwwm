@@ -1,0 +1,44 @@
+/* ----------  ASIDE  ---------- */
+.social {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    transform: translate(250px,0);
+    top:40%;
+    right: 0;
+    z-index: 9000;
+  }
+  
+  .social a {
+    color: var(--primary-color);
+    background: rgba(0,0,0, 0.1);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none; 
+    display:block;
+    margin: 5px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 50px;
+    transition: 0.7s;
+  }
+  
+  .social a:hover{
+    transform: translate(-140px,0);
+  }
+  
+  .social i {
+    margin-right:10px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .social a:nth-child(1) i::before {
+    color: #0e76a8 ;
+  }
+  .social a:nth-child(2) i::before {
+    color: #333;
+  }

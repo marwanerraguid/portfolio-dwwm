@@ -1,0 +1,49 @@
+/* --------  COMPETENCES ---------- */
+section#competences {
+    font-family: var(--font);
+}
+.title-competence {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.title-competence h2 {
+  font-size: 3rem;
+  color: var(--primary-color);
+}
+
+.container-card {
+  padding: 100px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-items: center;
+  grid-gap: 20px;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.frontend, .backend, .autre {
+  height: 500px;
+  width: 350px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.frontend img {
+  margin: 20px;
+  width: 60px;
+}
+
+.backend img, .autre img {
+  margin: 20px;
+  width: 80px;
+}
+
+.frontend, .backend, .autre h3 {
+  text-transform: uppercase;
+  padding: 20px;
+  font-size: 1.5rem;
+}

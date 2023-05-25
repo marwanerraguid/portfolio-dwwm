@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    scroll-behavior: smooth;
+}
+
+/* ---------- FONTS ----------*/
+
+:root {
+    --font: 'Montserrat', sans-serif;
+    --primary-color: #000;
+    --secondary-color: #E1E5EA;
+}
+
+body {
+    background-color: var(--secondary-color);
+    font-family: var(--font);
+    min-height: 100vh;
+}
+
+/* ----------  HOME  ---------- */
+.home {
+    height: 100vh;
+}
+
+/* ----------  DARK MODE  ---------- */
+
+.dark {
+  --primary-color: #fff;
+  --secondary-color: #363062;
+}
