@@ -20,12 +20,9 @@ if (getMode && getMode === "dark") {
   document.body.classList.add("dark");
 }
 
-window
-  .matchMedia("(prefers-color-scheme: dark)")
-  .addEventListener("change", ({ matches }) => {
-    if (document.body.classList.contains("dark")) {
-      document.body.classList.toggle("dark");
-    } else {
-      document.body.classList.remove("dark");
-    }
-  });
+if (
+  window.matchMedia &&
+  window.matchMedia("(prefers-color-scheme: dark)").matches
+) {
+  document.body.classList.add("dark");
+}
