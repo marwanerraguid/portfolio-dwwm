@@ -129,7 +129,7 @@ menu li a {
     background-color: var(--secondary-color);
     width: 100%;
     text-align: left;
-    transition: 0.3s;
+    transition: left 0.3s;
   }
 
   menu li {
@@ -152,6 +152,13 @@ menu li a {
   }
   .toggle-mode.active {
     right: 0;
+  }
+}
+
+@media screen and (max-width:380px){
+
+  .frontend {
+    width: 200px;
   }
 }
 .toggle-mode {
