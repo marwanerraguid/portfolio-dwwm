@@ -14,7 +14,7 @@ main {
 }
 
 .main-content h1 {
-    font-family: var(--font);
+    font-family: var(--font-title);
     font-size: 80px;
     color: var(--primary-color);
 }
