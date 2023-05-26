@@ -6,7 +6,7 @@ Tout d'abord, j'ai commencé par faire la maquette sur figma, je me suis inspir�
 
 Une fois que la maquette était finie, tout était clair dans ma tête, donc j'ai enchainé en mettant en place ma structure de page avec HTML, j'y ai ajouté du style avec CSS où j'ai également ajouté du responsive pour que le portfolio s'adapte en fonction de l'appareil de l'utilisateur.
 
-Le design de mon portfolio fini, j'ai commencé à chercher une façon de faire un slider pour afficher mes projets sur ma première page, j'ai trouvé une librairie qui se nomme "SwiperJS", j'ai lu la documentation de celle-ci et c'était exactement ce que je recherchais donc je l'ai implémentée sur mon portfolio en l'ajustant à ma sauce. Je voulais également rajouter des animations au chargement de la page et au scroll de celle-ci, j'ai utilisé la librairie "AOS JS" qui permet de faire des animations javascript en utilisant le concept des "intersections observer".
+Le design de mon portfolio fini, j'ai commencé à chercher une façon de faire un slider pour afficher mes projets sur ma première page, j'ai trouvé une librairie qui se nomme "SwiperJS", j'ai lu la documentation de celle-ci et c'était exactement ce que je recherchais donc je l'ai implémentée sur mon portfolio en l'ajustant à ma sauce. Je voulais également rajouter des animations au chargement de la page et au scroll de celle-ci, j'ai utilisé la librairie "AOS JS" qui permet de faire des animations javascript.
 
 ---
 ### Stack
