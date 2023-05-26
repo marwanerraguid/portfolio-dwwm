@@ -12,14 +12,17 @@
 
     <!-- SWIPER CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"  />
-
+    <!-- ANIMATION CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- SWIPER JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
-
+    <!-- ANIMATIONS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
     <!-- SCRIPT JS -->
     <script src="./script/slider.js" defer></script>
     <script src="./script/burger.js" defer></script>
     <script src="./script/mode.js" defer></script>
+    <script src="./script/animation.js" defer></script>
 </head>
 <body>
     <div class="home" id="home">
@@ -63,9 +66,9 @@
             <section class="main-content">
                 <div class="container-main-content">
                     <div class="main-content">
-                        <h3>Bonjour, je suis</h3>
-                        <h1>ERRAGUID Marwan</h1>
-                        <p>Un développeur web junior qui aimerait se spécialiser dans le domaine dit "frontend".
+                        <h3 data-aos="fade-right" data-aos-duration="2000">Bonjour, je suis</h3>
+                        <h1 data-aos="fade-left" data-aos-delay="500"  data-aos-duration="2000">ERRAGUID Marwan</h1>
+                        <p  data-aos="fade-right" data-aos-delay="1000" data-aos-duration="2000">Un développeur web junior qui aimerait se spécialiser dans le domaine dit "frontend".
                             Actuellement en formation développeur web et web mobile (DWWM), je recherche un stage afin de parfaire mon apprentissage.</p>
                         <div class="btn-container">
                             <button>Télécharger CV</button>
@@ -277,12 +280,12 @@
         </main>
     </div>
     <section id="competences">
-        <div class="title-competence">
+        <div class="title-competence" data-aos="fade-up" data-aos-duration ="2000">
             <h2>Compétences</h2>
             <p>Voici ci-dessous les différents langages, frameworks et outils que j’ai appris et dont je me suis servi lors de ma formation.</p>
         </div>
         <div class="container-card">
-            <div class="frontend">
+            <div class="frontend" data-aos="fade-down" data-aos-duration ="1000">
                 <h3>Frontend</h3>
                 <a href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank"><img src="./assets/img/html.png" alt="html"></a>
                 <a href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank"><img src="./assets/img/css.png" alt="css"></a>
@@ -291,13 +294,13 @@
                 <a href="https://vuejs.org/" target="_blank"><img src="./assets/img/vue.png" alt="vue"></a>
                 <a href="https://www.typescriptlang.org/docs/" target="_blank"><img src="./assets/img/typescript.png" alt="typescript"></a>
             </div>
-            <div class="backend">
+            <div class="backend" data-aos="fade-down" data-aos-delay="500" data-aos-duration ="1000">
                 <h3>Backend</h3>
                 <a href="https://www.php.net/docs.php" target="_blank"><img src="./assets/img/php.png" alt="php"></a>
                 <a href="https://dev.mysql.com/doc/" target="_blank"><img src="./assets/img/mysql.png" alt="mysql"></a>
                 <a href="https://symfony.com/" target="_blank"><img src="./assets/img/symfony.png" alt="symfony"></a>
             </div>
-            <div class="autre">
+            <div class="autre" data-aos="fade-down" data-aos-delay="1000" data-aos-duration ="1000"> 
                 <h3>Autre</h3>
                 <a href="https://git-scm.com/doc" target="_blank"><img src="./assets/img/git.png" alt="figma"></a>
                 <a href="https://www.figma.com/" target="_blank"><img src="./assets/img/figma.png" alt="figma"></a>
