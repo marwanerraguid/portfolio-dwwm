@@ -9,7 +9,6 @@
         opacity: 0;
     }
 }
-
 .background {
     z-index: -1;
     position: fixed;
@@ -34,71 +33,60 @@
     transform: scale(0) rotate(0deg) translate(-50%, -50%);
     animation: cube 11s ease-in forwards infinite;
 }
-
 .background li:nth-child(0) {
     animation-delay: 0s;
     left: 38vw;
     top: 20vh;
 }
-
 .background li:nth-child(1) {
     animation-delay: 2s;
     left: 1vw;
     top: 68vh;
     border-color: #c9c3da;
 }
-
 .background li:nth-child(2) {
     animation-delay: 4s;
     left: 72vw;
     top: 89vh;
     border-color: #c9c3da;
 }
-
 .background li:nth-child(3) {
     animation-delay: 6s;
     left: 25vw;
     top: 78vh;
     border-color: #c9c3da;
 }
-
 .background li:nth-child(4) {
     animation-delay: 8s;
     left: 95vw;
     top: 92vh;
 }
-
 .background li:nth-child(5) {
     animation-delay: 10s;
     left: 19vw;
     top: 8vh;
 }
-
 .background li:nth-child(6) {
     animation-delay: 12s;
     left: 50vw;
     top: 37vh;
     border-color: #c9c3da;
 }
-
 .background li:nth-child(7) {
     animation-delay: 14s;
     left: 83vw;
     top: 49vh;
 }
-
 .background li:nth-child(8) {
     animation-delay: 16s;
     left: 49vw;
     top: 58vh;
 }
-
 .background li:nth-child(9) {
     animation-delay: 18s;
     left: 67vw;
     top: 16vh;
 }
-
 @keyframes animate {
     0%{
         transform: translateY(0) rotate(0deg);
@@ -111,7 +99,6 @@
         border-radius: 50%;
     }
 }
-
 .background {
     position: fixed;
     width: 100vw;
@@ -204,14 +191,12 @@
     bottom: -43px;
     animation-delay: 7s;
 }
-
 /* ---------- SCROLLBAR ---------- */
 /* Firefox */
 * {
     scrollbar-width: thin;
     scrollbar-color: #10200A #DFE9EB;
   }
-  
   /* Chrome, Edge and Safari */
   *::-webkit-scrollbar {
     width: 10px;
@@ -221,24 +206,19 @@
     border-radius: 5px;
     background-color: #DFE9EB;
   }
-  
   *::-webkit-scrollbar-track:hover {
     background-color: #B8C0C2;
   }
-  
   *::-webkit-scrollbar-track:active {
     background-color: #B8C0C2;
   }
-  
   *::-webkit-scrollbar-thumb {
     border-radius: 5px;
     background-color: #1e1f1e;
   }
-  
   *::-webkit-scrollbar-thumb:hover {
     background-color: #535353;
   }
-  
   *::-webkit-scrollbar-thumb:active {
     background-color: #535353;
   }

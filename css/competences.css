@@ -6,13 +6,14 @@ section#competences {
   text-align: center;
   padding-top: 150px;
 }
-
+.title-competence p {
+  margin: 0 auto;
+  max-width: 80%;
+}
 .title-competence h2 {
   font-size: 3rem;
-  
   color: var(--primary-color);
 }
-
 .container-card {
   padding: 100px;
   display: grid;
@@ -23,7 +24,6 @@ section#competences {
   text-align: center;
   color: var(--primary-color);
 }
-
 .frontend, .backend, .autre {
   height: 500px;
   width: 350px;
@@ -34,19 +34,24 @@ section#competences {
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 }
-
 .frontend img {
   margin: 20px;
   width: 60px;
 }
-
 .backend img, .autre img {
   margin: 20px;
   width: 80px;
 }
-
 .frontend, .backend, .autre h3 {
   text-transform: uppercase;
   padding: 20px;
   font-size: 1.5rem;
+}
+@media screen and (max-width:380px) {
+  .title-competence h2 {
+    font-size: 2rem;
+  }
+  .frontend, .backend, .autre  {
+    width: 275px;
+  }
 }

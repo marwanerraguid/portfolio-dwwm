@@ -24,10 +24,11 @@ if (getMode && getMode === "dark") {
   document.body.classList.add("dark");
 }
 
-// On détecte le thème de l'utilisateur, s'il est sombre alors on ajoute la classe "dark"
-// if (
-//   window.matchMedia &&
-//   window.matchMedia("(prefers-color-scheme: dark)").matches
-// ) {
-//   document.body.classList.add("dark");
-// }
+// On détecte le thème de l'utilisateur, s'il est sombre alors on ajoute la classe "dark" sinon elle s'enlève
+window
+  .matchMedia("(prefers-color-scheme: dark)")
+  .addEventListener("change", (e) => {
+    if (e.matches) {
+      document.body.classList.toggle("dark");
+    }
+  });

@@ -5,7 +5,6 @@
     box-sizing : border-box;
     scroll-behavior: smooth;
 }
-
 /* ---------- FONTS ----------*/
 @font-face {
     font-family: 'GT-Bold';
@@ -17,20 +16,16 @@
     --primary-color: #000;
     --secondary-color: #E1E5EA;
 }
-
 body {
     background-color: var(--secondary-color);
     font-family: var(--font);
     min-height: 100vh;
 }
-
 /* ----------  HOME  ---------- */
 .home {
     height: 100vh;
 }
-
 /* ----------  DARK MODE  ---------- */
-
 .dark {
   --primary-color: #fff;
   --secondary-color: #363062;

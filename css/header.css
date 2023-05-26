@@ -17,11 +17,9 @@ header {
     cursor: pointer;
     font-size: 1.2rem;
 }
-
 menu {
     display: flex;
 }
-
 menu li {
     background-color: var(--secondary-color);
     padding: 8px 10px;
@@ -42,7 +40,6 @@ menu li a {
     padding: 8px 10px;
     border-radius: 5px;
 }
-
 .burger {
   position: absolute;
   top: 50%;
@@ -51,7 +48,6 @@ menu li a {
   display: none;
   cursor: pointer;
 }
-
 .bar {
   display: block;
   width: 25px;
@@ -61,57 +57,52 @@ menu li a {
   transition: all 0.3s ease-in-out;
   background-color: var(--primary-color);
 }
-
 @media screen and (max-width:768px){
-  .burger {
-    display: block;
-  }
-  .burger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-  .burger.active .bar:nth-child(1) {
-    transform: translateY(6px) rotate(45deg);
-  }
-  .burger.active .bar:nth-child(3) {
-    transform: translateY(-6px) rotate(-45deg);
-  }
-
-  menu {
-    position: fixed;
-    left: -100%;
-    top: 8%;
-    gap: 0;
-    flex-direction: column;
-    box-shadow: 1px 0.5px 3px rgba(0, 0, 0, 0.12);
-    background-color: var(--secondary-color);
-    width: 100%;
-    text-align: left;
-    transition: left 0.3s;
-  }
-
-  menu li {
-    margin: 16px 0;
-    width: 50%;
-  }
-  menu li:hover {
-    padding: 8px 10px;
-    background-color: transparent;
-  }
-  menu.active {
-    left: 0;
-  }
-
-  .toggle-mode {
-    position: fixed;
-    right: -100%;
-    top: 10%;
-    transition: 0.3s;
-  }
-  .toggle-mode.active {
-    right: 0;
-  }
+.burger {
+  display: block;
 }
-
+.burger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+.burger.active .bar:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+.burger.active .bar:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+menu {
+  position: fixed;
+  left: -100%;
+  top: 8%;
+  gap: 0;
+  flex-direction: column;
+  box-shadow: 1px 0.5px 3px rgba(0, 0, 0, 0.12);
+  background-color: var(--secondary-color);
+  width: 100%;
+  text-align: left;
+  transition: left 0.3s;
+}
+menu li {
+  margin: 16px 0;
+  width: 50%;
+}
+menu li:hover {
+  padding: 8px 10px;
+   background-color: transparent;
+}
+menu.active {
+  left: 0;
+}
+.toggle-mode {
+  position: fixed;
+  right: -100%;
+  top: 10%;
+  transition: 0.3s;
+}
+.toggle-mode.active {
+  right: 0;
+}
+}
 .toggle-mode {
     font-size: 1.6rem;
     margin: 0 20px;
