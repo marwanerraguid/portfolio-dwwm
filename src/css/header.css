@@ -26,7 +26,6 @@ menu li {
     margin: 0 20px;
     list-style: none;
     border-radius: 10px;
-    /* transition: background-color 0.5s ease; */
 }
 menu li:hover {
   padding: 8px 10px;

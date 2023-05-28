@@ -8,13 +8,14 @@
 /* ---------- FONTS ----------*/
 @font-face {
     font-family: 'GT-Bold';
-    src: url("../assets/fonts/GTWalsheimPro-Bold.ttf");
+    src: url("../../public/assets/fonts/GTWalsheimPro-Bold.ttf");
+    font-display: swap;
 }
 :root {
     --font: 'Montserrat', sans-serif;
     --font-title: 'GT-Bold', sans-serif;
     --primary-color: #000;
-    --secondary-color: #E1E5EA;
+    --secondary-color: #afcaeb;
 }
 body {
     background-color: var(--secondary-color);
@@ -22,10 +23,7 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
 }
-/* ----------  HOME  ---------- */
-.home {
-    height: 100vh;
-}
+
 /* ----------  DARK MODE  ---------- */
 .dark {
   --primary-color: #fff;

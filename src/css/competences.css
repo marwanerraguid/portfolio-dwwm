@@ -34,13 +34,14 @@ section#competences {
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 }
-.frontend img {
+.frontend img, .backend img, .autre img {
   margin: 20px;
+  aspect-ratio: auto;
   width: 60px;
+  transition: 0.3s;
 }
-.backend img, .autre img {
-  margin: 20px;
-  width: 80px;
+.frontend img:hover, .backend img:hover, .autre img:hover {
+  transform: scale(1.3);
 }
 .frontend, .backend, .autre h3 {
   text-transform: uppercase;
