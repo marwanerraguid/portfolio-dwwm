@@ -15,7 +15,7 @@
     --font: 'Montserrat', sans-serif;
     --font-title: 'GT-Bold', sans-serif;
     --primary-color: #000;
-    --secondary-color: #afcaeb;
+    --secondary-color: #E1E5EA;
 }
 body {
     background-color: var(--secondary-color);
@@ -23,7 +23,6 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
 }
-
 /* ----------  DARK MODE  ---------- */
 .dark {
   --primary-color: #fff;
