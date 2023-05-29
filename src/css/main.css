@@ -64,6 +64,8 @@ main {
 /* --------  PROJETS  ---------- */
 section.projets {
   overflow: hidden;
+  margin: 150px 0;
+  padding-top: 150px;
 }
 .container-projects {
   display: flex;
