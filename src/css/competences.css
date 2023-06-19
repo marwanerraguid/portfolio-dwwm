@@ -43,6 +43,7 @@ section#competences {
 .frontend img:hover, .backend img:hover, .autre img:hover {
   transform: scale(1.3);
 }
+
 .frontend, .backend, .autre h3 {
   text-transform: uppercase;
   padding: 20px;

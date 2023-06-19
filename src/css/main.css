@@ -123,6 +123,7 @@ section.projets {
   width: 100%;
   object-fit: cover;
   border-radius: 10px;
+  cursor: pointer;
 }
 .name{
   margin: 10px 0;
